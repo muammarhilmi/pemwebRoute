@@ -1,34 +1,35 @@
-@php
-    $products = [
-        [
+<?php
+    $products = array(
+        array(
             'img' => 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1000,h_1000/global/387599/01/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Slip-On-Anzarun-Lite',
             'judul' => 'Sepatu PUMA Slip-On Anzarun Lite',
             'desk' => 'Sepatu ini cocok untuk lari di GBK',
             'btn' => 'Beli Sekarang'
-        ],
-        [
+        ),
+        array(
             'img' => 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1000,h_1000/global/392326/02/sv01/fnd/IDN/fmt/png/Sepatu-Sneaker-Rebound',
             'judul' => 'Sepatu PUMA Rebound Sneakers',
             'desk' => 'Sepatu ini cocok untuk pamer',
             'btn' => 'Beli Sekarang'
-        ],
-        [
+        ),
+        array(
             'img' => 'https://dynamic.zacdn.com/KUU6-OPy715MYBXMoYIXUnE1zL4=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/oxford-society-9668-7376913-1.jpg',
             'judul' => 'Jaket Varsity Oxford Society Leeds Black',
             'desk' => 'Jaket umum digunakan untuk menonton Baseball',
             'btn' => 'Beli Sekarang'
-        ],
-        [
+        ),
+        array(
             'img' => 'https://houseofsmith.co.id/wp-content/uploads/2021/12/63.1.jpg',
             'judul' => 'Jaket Bomber House of Smith',
             'desk' => 'Jaket untuk berpergian keluar rumah',
             'btn' => 'Beli Sekarang'
-        ],
-    ];
-@endphp
+        ),
+    );
+?>
+
 
 <x-layout>
-<h3>Ini adalah halaman Homepage</h3>
+<h3>oi kiyomasa</h3>
 <div class="container py-5">
         <x-slot name="title">{{ $title }}</x-slot>
 
@@ -56,7 +57,7 @@
         </div>
 
         <div class="d-flex flex-column justify-content-center align-items-center text-center mt-5">
-            <h3 class="text-white">Ingin lacak pesanan Anda?</h3>
+            <h3 class="text-black">Lacak Pesanan Anda</h3>
             <button id="liveAlertBtn" class="btn btn-outline-primary mt-2">
                 <i class="bi bi-search me-2"></i>Lacak
             </button>
